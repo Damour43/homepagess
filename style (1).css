@@ -1,0 +1,400 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main-header
+ {
+ 
+   height: 90px;
+   display: flex; 
+   float: left;
+  width: 110%;
+   margin: 0;
+   padding: 0 4pc;
+   background-color: #E33E2B;
+ 
+
+   
+} 
+
+h5,h6
+{
+  color: #000000;
+  font-size: 10px;
+ 
+}
+.main
+  {
+      display: flex;
+      font: 1em sans-serif;
+      width: 100%;
+      padding: 10px;
+      margin: 0px 0.2pc;
+  }
+  
+body {
+    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+    width: 100%;
+}
+
+.no
+{
+  position: relative;
+  top: 0pc;
+  left: -2pc;
+  color: white  ;
+}
+.main-header h1
+ {
+   color: white;
+   font-size: 1.5em;
+   margin: 1pc -3pc;
+ }
+ .main-header div
+ {
+    display: flex;
+ 
+    float: left;
+    width: 100%;
+    margin:0px 0pc;
+    color: white;
+ 
+ 
+     
+ }
+ .main-header div span img
+ {
+  width: 80px;
+  padding: 10px;
+  margin: 0pc 1.8pc;
+ }
+  .main-header div button
+  {
+    border: 0;
+    border-radius: 15px;
+    color:  #e43f3ff5;
+    margin: 2pc 0;
+    padding: 5px;
+    width: 150px;
+    height: 35px;
+  }
+  
+ .me2
+  {
+    border: 0;
+    border-radius: 50%;
+    width: 90px;
+   
+    position: relative;
+    left: 5.3pc;
+    top: -5.5pc;
+  }
+  .under
+  {
+    position: relative;
+    top: -8pc;
+    left: -12%;
+
+    text-align: center;
+    justify-content: center;
+  }
+  .under h5
+  { position: relative;
+    top: -2pc;
+
+  }
+  .under h4{
+    display: flex;
+    align-items: center;
+}
+
+.co{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.under h4 img{
+    margin-right: 10px 2pc;
+}
+
+
+.div1 span img
+
+{
+ 
+  margin: 1pc 0;
+}
+.d2
+{
+  width: 100%;
+}
+.d3
+{
+  margin: 0 1pc;
+  border-radius: 2PX;
+  box-shadow: 5px 5px 10px  #bed5e8;
+  width: 33%;display: block;
+}
+
+.div1 { width: 22%; }
+.div2 { width: 48%; }
+.div3 { width: 30%; }
+.cards-container {
+    display: flex;
+    gap: 15px;
+    overflow-x: auto; /* Allows scrolling if cards are too wide */
+    padding-bottom: 10px;
+    margin-top: 2pc;
+}
+.box
+{
+  width: 160%;
+}
+
+
+
+.card {
+background: #fff;
+border-radius: 6px;
+padding: 15px;
+margin-bottom: 15px;
+box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+
+.card-header {
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+
+.top-bar {
+width: 120px;
+height: 12px;
+background: #2aa7d6;
+border-radius: 6px;
+}
+
+
+.follow {
+text-decoration: none;
+color: #6c7a89;
+font-size: 14px;
+}
+
+
+.company {
+display: flex;
+align-items: center;
+gap: 10px;
+}
+
+
+.logo {
+width: 28px;
+height: 28px;
+
+border-radius: 50%;
+}
+
+
+.details {
+margin: 15px 0;
+padding-left: 18px;
+color: #333;
+}
+
+
+.details li {
+margin-bottom: 6px;
+font-size: 12px;
+}
+
+
+.time {
+display: flex;
+gap: 20px;
+justify-content: flex-end;
+margin-bottom: 10px;
+}
+
+
+.time span {
+color: #e74c3c;
+font-weight: bold;
+display: block;
+text-align: center;
+}
+
+
+.time small {
+font-size: 11px;
+color: #777;
+}
+
+
+.actions {
+display: flex;
+gap: 20px;
+border-top: 1px solid #eee;
+padding-top: 10px;
+color: #666;
+font-size: 14px;
+}
+.wrapper {
+  width: 30%;
+  min-width: 300px;
+  margin: 20px auto;
+}
+
+
+.top {
+  display: grid;
+  grid-template-columns: 220px 1fr;
+  gap: 15px;
+  margin-bottom: 15px;
+}
+
+.profile {
+  background: #fff;
+  border-radius: 6px;
+  padding: 15px;
+  text-align: center;
+}
+
+.profile img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.profile p {
+  color: #e67e8a;
+  font-style: italic;
+  margin-top: 10px;
+}
+
+/* Favourite Section */
+
+.fav {
+  background: #fff;
+  border-radius: 6px;
+  padding: 10px;
+}
+
+.fav .title {
+  background: #3aa0c8;
+  color: #fff;
+  padding: 6px 10px;
+  border-radius: 4px;
+  font-weight: bold;
+  width: 160%;
+}
+
+.fav .box {
+  background: #eef6fb;
+  margin-top: 8px;
+  padding: 10px;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.fav img {
+  width: 100%;
+  margin-top: 8px;
+  border-radius: 4px;
+}
+
+/* Job Card */
+
+.card {
+  background: #fff;
+  border-radius: 6px;
+  padding: 15px;
+  margin-bottom: 15px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, .1);
+}
+
+.job-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.company {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.logo {
+  width: 40px;
+  height: 40px;
+ position: relative;
+ top: -2pc;
+ left: -4pc;
+  border-radius: 6px;
+}
+
+.job-title {
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.time {
+  display: flex;
+  gap: 20px;
+  text-align: center;
+}
+
+.time span {
+  display: block;
+  color: #e74c3c;
+  font-weight: bold;
+}
+
+.time small {
+  font-size: 11px;
+  color: #777;
+}
+
+.star {
+  background: #f3c7c3;
+  border-radius: 6px;
+  padding: 8px;
+}
+
+/* Content Sections */
+
+h3 {
+  margin-top: 15px;
+  margin-bottom: 6px;
+  font-size: 14px;
+}
+
+ul {
+  margin-top: 5px;
+}
+
+li {
+  margin-bottom: 6px;
+  font-size: 12px;
+}
+
+.section {
+  border-top: 1px solid #eee;
+  margin-top: 10px;
+  padding-top: 10px;
+}
+.blue-btn { background: #34aadc; color: white; border: none; width: 100%; padding: 10px; border-radius: 20px; margin-top: 15px; font-weight: bold; cursor: pointer; }
+span strong
+{
+  color: #34aadc;
+  margin: 0 0px;
+}
+
